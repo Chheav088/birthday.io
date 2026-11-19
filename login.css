@@ -1,0 +1,37 @@
+.prompt-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+  min-height: 54px;
+  position: relative;
+}
+
+.btn-yes {
+  background: linear-gradient(135deg, #ff7aa8, #ff548e);
+  color: #fff;
+  border: none;
+  padding: 13px 24px;
+  border-radius: 18px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(255, 84, 142, 0.35);
+  transition: transform 0.2s;
+}
+
+.btn-yes:hover {
+  transform: scale(1.06);
+}
+
+.btn-no {
+  background: #f5ebf0;
+  color: var(--text-muted);
+  border: 2px solid var(--border-color);
+  padding: 13px 20px;
+  border-radius: 18px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
